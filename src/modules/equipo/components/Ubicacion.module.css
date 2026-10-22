@@ -1,0 +1,11 @@
+.ubicacion {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 0;
+  color: var(--muted);
+}
+
+.ubicacion img {
+  flex-shrink: 0;
+}

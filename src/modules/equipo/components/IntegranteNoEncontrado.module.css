@@ -1,0 +1,47 @@
+.aviso {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: clamp(24px, 4vw, 48px);
+  border-left: 4px solid var(--orange);
+  border-radius: 0 24px 24px 0;
+  background: var(--surface);
+}
+
+.eyebrow {
+  margin: 0 0 12px;
+  color: var(--cyan);
+  font-family: var(--display);
+  font-size: .76rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+}
+
+.aviso h1 {
+  margin: 0 0 14px;
+  font-family: var(--display);
+  font-size: clamp(1.6rem, 4vw, 2.6rem);
+  line-height: 1.15;
+}
+
+.aviso p:not(.eyebrow) {
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+
+.boton {
+  display: inline-flex;
+  min-height: 48px;
+  align-items: center;
+  margin-top: 12px;
+  padding: 0 20px;
+  border-radius: 6px;
+  background: linear-gradient(135deg, var(--yellow), var(--orange));
+  color: #16100b;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.boton:focus-visible {
+  outline: 2px solid var(--yellow);
+  outline-offset: 3px;
+}

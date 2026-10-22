@@ -1,0 +1,32 @@
+.enlace {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  max-width: 100%;
+  min-height: 48px;
+  color: var(--cyan);
+  font-size: .9rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color .2s ease, text-shadow .2s ease;
+}
+
+.enlace img {
+  flex-shrink: 0;
+}
+
+.enlace span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.enlace:hover,
+.enlace:focus-visible {
+  color: var(--yellow);
+  text-shadow: 0 0 12px rgba(255, 216, 77, .45);
+}
+
+.enlace:focus-visible {
+  outline: 2px solid var(--yellow);
+  outline-offset: 4px;
+}

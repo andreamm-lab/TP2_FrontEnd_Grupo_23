@@ -1,0 +1,78 @@
+[
+  {
+    "id": "sebastian-fernandez",
+    "nombre": "Sebastián",
+    "apellido": "Fernández",
+    "rol": "Full Stack",
+    "edad": 36,
+    "ciudad": "Bahía Blanca",
+    "descripcion": [
+      "Desarrollador de software con 4 años de experiencia en la industria, actualmente trabajando con PHP, SQL y JavaScript sobre un sistema de certificación laboral. Estudio la Tecnicatura Superior en Desarrollo de Software en el IFTS N°29 y me interesa entender el proyecto completo: no solo el código, sino también los servidores, la seguridad y los costos que lo sostienen. Al equipo aporto experiencia real trabajando con Git, APIs REST y trabajo en equipo."
+    ],
+    "github": "Fernandez-Sebastian",
+    "foto": {
+      "base": "/imagenes/perfiles/Seba-FaseNormal.png",
+      "transformada": "/imagenes/perfiles/SebaSsj2.png",
+      "formato": "retrato"
+    },
+    "habilidades": ["HTML", "CSS", "JavaScript", "React", "Vite", "Bootstrap", "Tailwind CSS", "PHP", "MySQL", "Git", "Docker", "XAMPP", "Desarrollo frontend", "Desarrollo backend", "Bases de datos", "Trabajo en equipo"]
+  },
+  {
+    "id": "glaucia-ferreira",
+    "nombre": "Glaucia",
+    "apellido": "Ferreira",
+    "rol": "Full Stack",
+    "edad": 35,
+    "ciudad": "CABA",
+    "descripcion": [
+      "Soy desarrolladora de software especializada principalmente en backend, con experiencia en C#, .NET, SQL Server y Delphi. Actualmente curso la Tecnicatura Superior en Desarrollo de Software para continuar ampliando mi formación.",
+      "Me interesan especialmente el desarrollo backend, las bases de datos, la arquitectura de software y la aplicación de inteligencia artificial al desarrollo. Me gusta analizar problemas, encontrar soluciones y trabajar en equipo, combinando experiencia técnica con aprendizaje continuo."
+    ],
+    "github": "glaucia1906",
+    "foto": {
+      "base": "/imagenes/perfiles/glaucia-ferreira.jpeg",
+      "transformada": "/imagenes/perfiles/glaucia-ferreira-anime.png",
+      "formato": "vertical"
+    },
+    "habilidades": ["C#", ".NET", "SQL Server", "Delphi", "HTML", "CSS", "JavaScript", "Git", "Backend", "Bases de datos", "Trabajo en equipo"]
+  },
+  {
+    "id": "ignacio-grosman",
+    "nombre": "Ignacio",
+    "apellido": "Grosman",
+    "rol": "Full Stack",
+    "edad": 37,
+    "ciudad": "Vicente López",
+    "descripcion": [
+      "Empecé a programar durante la pandemia buscando una vocación y ya no paré. Hoy curso el segundo año de la Tecnicatura Superior en Desarrollo de Software y trabajo como desarrollador Full Stack, construyendo sistemas WMS de gestión de depósitos con .NET, SQL Server y Angular.",
+      "Cuando algo falla busco el origen del problema y me incomoda la complejidad innecesaria: un buen código es el que le facilita las cosas a quien lo lee después. Al equipo le aporto experiencia real con datos, circuitos administrativos y APIs, y orden para llegar al final. Fuera de la pantalla, juego y miro fútbol."
+    ],
+    "github": "IgnacioGrosman735",
+    "foto": {
+      "base": "/imagenes/perfiles/Nacho-tranqui.jpg",
+      "transformada": "/imagenes/perfiles/Nacho-super.jpg",
+      "formato": "cuadrado"
+    },
+    "habilidades": ["HTML", "CSS", "JavaScript", "TypeScript", "Angular", "C#", ".NET", "SQL", "Trabajo en equipo"]
+  },
+  {
+    "id": "andrea-maslucan-moreno",
+    "nombre": "Andrea",
+    "apellido": "Maslucan Moreno",
+    "rol": "Full Stack",
+    "edad": 30,
+    "ciudad": "CABA",
+    "descripcion": [
+      "Soy desarrolladora de software con experiencia en tecnologías como C#, SQL Server y Python.",
+      "Actualmente, estudio la Tecnicatura Superior en Desarrollo de Software en el IFTS N°29.",
+      "Me interesa especialmente el desarrollo web y de aplicaciones móviles. Me gusta trabajar en equipo y aprender nuevas tecnologías a través de desafíos."
+    ],
+    "github": "andreamm-lab",
+    "foto": {
+      "base": "/imagenes/perfiles/andrea-normal.jpg",
+      "transformada": "/imagenes/perfiles/andrea-anime.jpeg",
+      "formato": "retrato"
+    },
+    "habilidades": ["C#", "HTML", "CSS", "JavaScript", "Python", "Trabajo en equipo"]
+  }
+]

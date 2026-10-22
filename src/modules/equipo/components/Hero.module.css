@@ -1,0 +1,382 @@
+/* Hero de la portada, portado de assets/css/pages/inicio.css del TP1.
+   El estado "encendido" reemplaza a body.powered y queda limitado a esta sección. */
+
+.hero {
+  position: relative;
+  isolation: isolate;
+  width: min(1180px, calc(100% - 32px));
+  min-height: 560px;
+  margin: auto;
+  padding-block: clamp(32px, 5vw, 64px);
+  display: grid;
+  grid-template-columns: 1.15fr .85fr;
+  align-items: center;
+  gap: 50px;
+}
+
+.texto {
+  position: relative;
+  z-index: 2;
+}
+
+.eyebrow {
+  margin: 0 0 12px;
+  color: var(--cyan);
+  font-family: var(--display);
+  font-size: .76rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+}
+
+.hero h1 {
+  margin: 0;
+  font-family: var(--display);
+  font-size: clamp(2.6rem, 7vw, 5.6rem);
+  line-height: 1.15;
+  letter-spacing: -.04em;
+}
+
+.hero h1 span {
+  color: var(--orange);
+  text-shadow: 0 0 32px rgba(255, 138, 24, .35);
+}
+
+.bajada {
+  max-width: 650px;
+  margin: 24px 0;
+  color: var(--muted);
+  font-size: 1.16rem;
+}
+
+.acciones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+.boton {
+  display: inline-flex;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  font: inherit;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform .2s ease;
+}
+
+.boton:hover {
+  transform: translateY(-2px);
+}
+
+.boton:focus-visible {
+  outline: 2px solid var(--yellow);
+  outline-offset: 3px;
+}
+
+.botonPrimario {
+  color: #16100b;
+  background: linear-gradient(135deg, var(--yellow), var(--orange));
+  box-shadow: 0 10px 30px rgba(255, 138, 24, .2);
+}
+
+.botonSecundario {
+  color: var(--text);
+  border-color: var(--border);
+  background: var(--surface);
+}
+
+.mensaje {
+  min-height: 26px;
+  color: var(--muted);
+}
+
+.nucleoEnergia {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  min-width: 280px;
+  max-width: 430px;
+  aspect-ratio: 1;
+  margin: auto;
+  isolation: isolate;
+  pointer-events: none;
+  animation: pulso 1.4s ease-in-out infinite alternate;
+}
+
+.nucleo {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  width: clamp(132px, 42%, 180px);
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 32% 25%, rgba(255, 255, 225, .9), transparent 8%),
+    radial-gradient(circle at 38% 32%, var(--yellow), var(--orange) 52%, #b83e04 82%, #702000);
+  color: #361204;
+  font-family: var(--display);
+  font-size: clamp(2rem, 8vw, 3.75rem);
+  font-weight: 800;
+  line-height: 1;
+  box-shadow:
+    inset -16px -18px 30px rgba(104, 25, 0, .26),
+    inset 8px 8px 20px rgba(255, 239, 132, .2),
+    0 0 24px var(--orange),
+    0 0 90px rgba(255, 138, 24, .48);
+}
+
+.nucleo::before {
+  position: absolute;
+  inset: 8%;
+  border: 1px solid rgba(255, 225, 104, .28);
+  border-radius: 50%;
+  background-image:
+    linear-gradient(rgba(88, 30, 0, .07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(88, 30, 0, .07) 1px, transparent 1px);
+  background-size: 16px 16px;
+  content: "";
+  mask-image: radial-gradient(circle, #000 45%, transparent 82%);
+}
+
+.nucleo::after {
+  position: absolute;
+  inset: 0;
+  border: 2px solid rgba(255, 210, 70, .5);
+  border-radius: 50%;
+  content: "";
+}
+
+.siglas {
+  position: relative;
+  z-index: 4;
+  display: block;
+  line-height: 1;
+  text-shadow: 0 1px 0 rgba(255, 221, 92, .32);
+}
+
+.estrella {
+  position: absolute;
+  z-index: 3;
+  width: 11px;
+  height: 11px;
+  background: #ffe15b;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 94%, 50% 72%, 21% 94%, 32% 57%, 2% 35%, 39% 35%);
+  filter: drop-shadow(0 0 3px rgba(255, 230, 102, .9));
+}
+
+.estrella1 { top: 22%; left: 50%; }
+.estrella2 { top: 38%; left: 23%; }
+.estrella3 { top: 38%; right: 20%; }
+.estrella4 { bottom: 20%; left: 31%; }
+.estrella5 { right: 29%; bottom: 18%; }
+
+.orbita {
+  position: absolute;
+  inset: 12%;
+  border: 1px solid rgba(73, 229, 255, .38);
+  border-radius: 50%;
+  box-shadow: inset 0 0 18px rgba(73, 229, 255, .035);
+  opacity: .65;
+}
+
+.chispa {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--cyan);
+  box-shadow: 0 0 15px var(--cyan);
+}
+
+.chispa1 { top: 15%; right: 23%; }
+.chispa2 { bottom: 20%; left: 16%; }
+.chispa3 { top: 50%; right: 5%; }
+
+.aura {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  display: none;
+  pointer-events: none;
+}
+
+.aura::before,
+.aura::after {
+  position: absolute;
+  border-radius: 50%;
+  content: "";
+}
+
+.aura::before {
+  inset: 8%;
+  background: radial-gradient(ellipse, rgba(255, 246, 178, .6) 15%, rgba(255, 174, 24, .36) 35%, rgba(255, 72, 0, .16) 52%, transparent 70%);
+}
+
+.aura::after {
+  inset: 24%;
+  border: 2px solid rgba(255, 235, 151, .7);
+  box-shadow: 0 0 18px rgba(255, 138, 24, .5), inset 0 0 14px rgba(255, 216, 77, .4);
+  animation: onda 1.8s ease-out infinite;
+}
+
+.llamas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  filter: drop-shadow(0 0 6px rgba(255, 180, 40, .85)) drop-shadow(0 0 16px rgba(255, 83, 0, .6));
+}
+
+.llama {
+  transform-box: fill-box;
+  transform-origin: 50% 90%;
+  animation: llamarada 1.1s ease-in-out infinite alternate;
+}
+
+.llamaInterior {
+  animation-duration: .8s;
+  animation-delay: -.4s;
+  animation-direction: alternate-reverse;
+}
+
+.llamaBrillo {
+  animation-duration: 1.3s;
+  animation-delay: -.6s;
+}
+
+.brasa {
+  position: absolute;
+  left: 24%;
+  top: 48%;
+  width: 4px;
+  height: 12px;
+  border-radius: 50%;
+  background: #fff3b0;
+  box-shadow: 0 0 7px var(--yellow), 0 0 15px var(--orange);
+  --deriva: -12px;
+  animation: brasa 1.6s ease-out infinite;
+}
+
+.brasa:nth-of-type(2) { left: 72%; top: 44%; --deriva: 16px; animation-delay: -.7s; }
+.brasa:nth-of-type(3) { left: 42%; top: 25%; --deriva: -8px; animation-delay: -1.2s; }
+.brasa:nth-of-type(4) { left: 64%; top: 29%; --deriva: 10px; animation-delay: -.3s; }
+
+/* Estado encendido. El vuelo del TP1 se calculaba con JS; acá es una flotación solo con CSS. */
+.encendido {
+  --cyan: #91f7ff;
+}
+
+.encendido .nucleoEnergia {
+  animation: vuelo 6s ease-in-out infinite;
+}
+
+.encendido .aura {
+  display: block;
+}
+
+.encendido .nucleo {
+  box-shadow:
+    inset -16px -18px 30px rgba(104, 25, 0, .26),
+    inset 8px 8px 20px rgba(255, 239, 132, .35),
+    0 0 12px #fff3b0,
+    0 0 38px var(--yellow),
+    0 0 85px rgba(255, 102, 0, .7);
+}
+
+@keyframes pulso {
+  to {
+    filter: brightness(1.2);
+    transform: scale(1.025);
+  }
+}
+
+@keyframes vuelo {
+  0%, 100% { transform: translate(0, 0); }
+  25% { transform: translate(-6%, -5%); }
+  50% { transform: translate(4%, 4%); }
+  75% { transform: translate(-3%, 5%); }
+}
+
+@keyframes llamarada {
+  from {
+    transform: scaleX(.97) scaleY(.96) rotate(-2deg);
+    opacity: .8;
+  }
+  to {
+    transform: scaleX(1.03) scaleY(1.04) rotate(2deg);
+    opacity: 1;
+  }
+}
+
+@keyframes onda {
+  from {
+    transform: scale(.9);
+    opacity: .65;
+  }
+  to {
+    transform: scale(1.65);
+    opacity: 0;
+  }
+}
+
+@keyframes brasa {
+  0% {
+    transform: translate(0, 12px) scale(.6);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(var(--deriva), -65px) scale(.2);
+    opacity: 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero {
+    min-height: auto;
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .nucleoEnergia {
+    width: min(78vw, 360px);
+    min-width: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero {
+    width: min(100% - 22px, 1180px);
+  }
+
+  .acciones .boton {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nucleoEnergia,
+  .encendido .nucleoEnergia,
+  .aura::after,
+  .llama,
+  .brasa {
+    animation: none;
+  }
+
+  .boton:hover {
+    transform: none;
+  }
+}

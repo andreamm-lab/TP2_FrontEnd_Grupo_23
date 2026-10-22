@@ -1,0 +1,65 @@
+.seccion {
+  width: min(1180px, calc(100% - 32px));
+  margin: auto;
+  padding: 48px 0;
+}
+
+.encabezado {
+  max-width: 720px;
+  margin-bottom: 28px;
+}
+
+.eyebrow {
+  margin: 0 0 12px;
+  color: var(--cyan);
+  font-family: var(--display);
+  font-size: .76rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+}
+
+.encabezado h2,
+.mision h3 {
+  margin: 0 0 14px;
+  font-family: var(--display);
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  line-height: 1.15;
+}
+
+.mision {
+  padding: 54px;
+  border-left: 4px solid var(--orange);
+  background: var(--surface);
+}
+
+.mision > p:not(.eyebrow) {
+  max-width: 760px;
+  color: var(--muted);
+}
+
+.enlace {
+  color: var(--yellow);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.enlace:focus-visible {
+  outline: 2px solid var(--yellow);
+  outline-offset: 4px;
+}
+
+@media (max-width: 600px) {
+  .seccion {
+    padding: 32px 0;
+  }
+
+  .mision {
+    padding: 32px 24px;
+  }
+}
+
+@media (max-width: 400px) {
+  .seccion {
+    width: min(100% - 22px, 1180px);
+  }
+}
