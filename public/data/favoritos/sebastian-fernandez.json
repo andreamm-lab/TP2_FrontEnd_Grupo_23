@@ -1,0 +1,92 @@
+{
+  "id": 1,
+  "NombreIntegrante": "Sebastián",
+  "SeriesPeliculas": [
+    {
+      "id": 1,
+      "nombre": "Harry Potter",
+      "imagen": "/imagenes/favoritos/peliculas/sebastian-harry-potter.jpg",
+      "url": "https://www.youtube.com/watch?v=l91Km49W9qI",
+      "etiquetaEnlace": "Ver tráiler de Harry Potter y la piedra filosofal en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 2,
+      "nombre": "El señor de los anillos",
+      "imagen": "/imagenes/favoritos/peliculas/senor-de-los-anillos.jpg",
+      "url": "https://www.youtube.com/watch?v=AAGW4jJ9D4o",
+      "etiquetaEnlace": "Ver tráiler de El señor de los anillos: La comunidad del anillo en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 3,
+      "nombre": "Dragon Ball Z",
+      "imagen": "/imagenes/favoritos/peliculas/dragon-ball-z.jpg",
+      "url": "https://www.youtube.com/watch?v=iSWIiJ_b7as",
+      "etiquetaEnlace": "Ver tráiler oficial de Dragon Ball Super: Beerus en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 4,
+      "nombre": "Fullmetal Alchemist: Brotherhood",
+      "imagen": "/imagenes/favoritos/peliculas/fullmetal-alchemist.jpg",
+      "url": "https://www.youtube.com/watch?v=kx0nBaS_q50",
+      "etiquetaEnlace": "Ver tráiler de Fullmetal Alchemist: Brotherhood realizado por fans, subtitulado, en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 5,
+      "nombre": "Jujutsu Kaisen",
+      "imagen": "/imagenes/favoritos/peliculas/jujutsu-kaisen.jpg",
+      "url": "https://www.youtube.com/watch?v=pkKu9hLT-t8",
+      "etiquetaEnlace": "Ver tráiler de Jujutsu Kaisen en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 6,
+      "nombre": "Demon Slayer",
+      "imagen": "/imagenes/favoritos/peliculas/demon-slayer.jpg",
+      "url": "https://www.youtube.com/watch?v=VQGCKyvzIM4",
+      "etiquetaEnlace": "Ver tráiler de Demon Slayer en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 7,
+      "nombre": "Shingeki no Kyojin",
+      "imagen": "/imagenes/favoritos/peliculas/shingeki-no-kyojin.jpg",
+      "url": "https://www.youtube.com/watch?v=sFuAhHTgABs",
+      "etiquetaEnlace": "Ver video de Attack on Titan en YouTube (se abre en una pestaña nueva)"
+    }
+  ],
+  "Discos": [
+    {
+      "id": 1,
+      "nombre": "Callejeros — Presión (2003)",
+      "imagen": "/imagenes/favoritos/albums/callejeros-presion.jpg",
+      "url": "https://www.youtube.com/watch?v=bPqCwhSIrLA",
+      "etiquetaEnlace": "Escuchar Callejeros — Presión (álbum completo) en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 2,
+      "nombre": "Los Redondos — Gulp (1985)",
+      "imagen": "/imagenes/favoritos/albums/redondos-gulp.jpg",
+      "url": "https://www.youtube.com/watch?v=6AT2tk_Azro&list=RD6AT2tk_Azro&start_radio=1",
+      "etiquetaEnlace": "Escuchar Gulp, reedición en vinilo de 2024, en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 3,
+      "nombre": "Los Redondos — Oktubre (1986)",
+      "imagen": "/imagenes/favoritos/albums/redondos-oktubre.jpg",
+      "url": "https://www.youtube.com/watch?v=HkTn_RG6cZg",
+      "etiquetaEnlace": "Escuchar Oktubre, reedición en vinilo de 2024, en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 4,
+      "nombre": "Callejeros — Rocanroles sin destino (2004)",
+      "imagen": "/imagenes/favoritos/albums/callejeros-rocanroles.jpg",
+      "url": "https://www.youtube.com/watch?v=kVn-zqLmgoU",
+      "etiquetaEnlace": "Escuchar Callejeros — Rocanroles sin destino (álbum completo) en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 5,
+      "nombre": "Red Hot Chili Peppers — Californication (1999)",
+      "imagen": "/imagenes/favoritos/albums/rhcp-californication.jpg",
+      "url": "https://www.youtube.com/watch?v=u3UYiY_3XWU",
+      "etiquetaEnlace": "Escuchar Red Hot Chili Peppers — Californication (álbum completo) en YouTube (se abre en una pestaña nueva)"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": 2,
+  "NombreIntegrante": "Glaucia",
+  "SeriesPeliculas": [
+    {
+      "id": 1,
+      "nombre": "Harry Potter",
+      "imagen": "/imagenes/favoritos/peliculas/harry-potter.jpg",
+      "url": "https://www.youtube.com/watch?v=VyHV0BRtdxo",
+      "etiquetaEnlace": "Ver tráiler de Harry Potter y la piedra filosofal en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 2,
+      "nombre": "Alicia en el país de las maravillas",
+      "imagen": "/imagenes/favoritos/peliculas/alicia-pais-maravillas.jpg",
+      "url": "https://www.youtube.com/watch?v=KLIqErnQCuw",
+      "etiquetaEnlace": "Ver tráiler de Alicia en el país de las maravillas (1951) en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 3,
+      "nombre": "Iron Man",
+      "imagen": "/imagenes/favoritos/peliculas/iron-man.jpg",
+      "url": "https://www.youtube.com/watch?v=8ugaeA-nMTc",
+      "etiquetaEnlace": "Ver tráiler de Iron Man en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 4,
+      "nombre": "Star Wars",
+      "imagen": "/imagenes/favoritos/peliculas/star-wars.jpeg",
+      "url": "https://www.youtube.com/watch?v=vZ734NWnAHA",
+      "etiquetaEnlace": "Ver tráiler de Star Wars: Una nueva esperanza en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 5,
+      "nombre": "La vita è bella",
+      "imagen": "/imagenes/favoritos/peliculas/la-vita-e-bella.jpg",
+      "url": "https://www.youtube.com/watch?v=8CTjcVr9Iao",
+      "etiquetaEnlace": "Ver tráiler de La vita è bella en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 6,
+      "nombre": "Jeux d'enfants",
+      "imagen": "/imagenes/favoritos/peliculas/jeux-denfants.jpg",
+      "url": "https://www.youtube.com/watch?v=CX23hgYDTwg",
+      "etiquetaEnlace": "Ver tráiler de Jeux d'enfants en YouTube (se abre en una pestaña nueva)"
+    }
+  ],
+  "Discos": [
+    {
+      "id": 1,
+      "nombre": "AC/DC — High Voltage",
+      "imagen": "/imagenes/favoritos/albums/acdc-high-voltage.jpg",
+      "url": "https://www.youtube.com/watch?v=44XYEeD1A1U",
+      "etiquetaEnlace": "Escuchar T.N.T., canción del disco High Voltage de AC/DC, en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 2,
+      "nombre": "Queen — A Night at the Opera",
+      "imagen": "/imagenes/favoritos/albums/queen-a-night-at-the-opera.jpg",
+      "url": "https://www.youtube.com/watch?v=fJ9rUzIMcZQ",
+      "etiquetaEnlace": "Escuchar Bohemian Rhapsody, canción de A Night at the Opera de Queen, en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 3,
+      "nombre": "Caramelos de Cianuro — Frisbee",
+      "imagen": "/imagenes/favoritos/albums/caramelos-frisbee.jpg",
+      "url": "https://www.youtube.com/watch?v=r1kaj2i_B2o",
+      "etiquetaEnlace": "Escuchar Retrovisor, canción de Frisbee de Caramelos de Cianuro, en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 4,
+      "nombre": "Avril Lavigne — Let Go",
+      "imagen": "/imagenes/favoritos/albums/avril-lavigne-let-go.jpg",
+      "url": "https://www.youtube.com/watch?v=5NPBIwQyPWE",
+      "etiquetaEnlace": "Escuchar Complicated, canción de Let Go de Avril Lavigne, en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 5,
+      "nombre": "Simple Plan — Still Not Getting Any...",
+      "imagen": "/imagenes/favoritos/albums/simple-plan-still-not-getting-any.jpg",
+      "url": "https://www.youtube.com/watch?v=r0U0AlLVqpk",
+      "etiquetaEnlace": "Escuchar Welcome to my live, canción de Still Not Getting Any... de Simple Plan en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 6,
+      "nombre": "Rawayana — Licencia Para Ser Libre",
+      "imagen": "/imagenes/favoritos/albums/rawayana-licencia-para-ser-libre.jpg",
+      "url": "https://www.youtube.com/watch?v=amgxuTkS1jM",
+      "etiquetaEnlace": "Escuchar Sabana, canción de Licencia Para Ser Libre de Rawayana, en YouTube (se abre en una pestaña nueva)"
+    }
+  ]
+}

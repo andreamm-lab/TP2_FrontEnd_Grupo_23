@@ -1,0 +1,92 @@
+{
+  "id": 3,
+  "NombreIntegrante": "Ignacio",
+  "SeriesPeliculas": [
+    {
+      "id": 1,
+      "nombre": "La Naranaja Mecánica",
+      "imagen": "/imagenes/favoritos/peliculas/la-naraja-mecanica.jpg",
+      "url": "https://www.youtube.com/watch?v=vN-1Mup0UI0",
+      "etiquetaEnlace": "Ver tráiler de La naranja mecánica en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 2,
+      "nombre": "Nueve Reinas",
+      "imagen": "/imagenes/favoritos/peliculas/nueve_reinas.jpg",
+      "url": "https://www.youtube.com/watch?v=shsx2FdqLHM",
+      "etiquetaEnlace": "Ver tráiler de Nueve Reinas en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 3,
+      "nombre": "Intrusos en el espectáculo",
+      "imagen": "/imagenes/favoritos/peliculas/intrusos.jpg",
+      "url": "https://www.youtube.com/watch?v=PdW0pGcWjwE",
+      "etiquetaEnlace": "Ver video de Intrusos en el espectáculo en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 4,
+      "nombre": "Muñeca Brava",
+      "imagen": "/imagenes/favoritos/peliculas/muñeca-brava.jpg",
+      "url": "https://www.youtube.com/watch?v=_YblGO0FUpE",
+      "etiquetaEnlace": "Ver tráiler promocional de Muñeca Brava en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 5,
+      "nombre": "Primal",
+      "imagen": "/imagenes/favoritos/peliculas/primal.jpg",
+      "url": "https://www.youtube.com/watch?v=UpPNDoKP6d4",
+      "etiquetaEnlace": "Ver tráiler de Primal en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 6,
+      "nombre": "Rick and Morty",
+      "imagen": "/imagenes/favoritos/peliculas/Rick-y-Morty.jpg",
+      "url": "https://www.youtube.com/watch?v=ySYnTO7leqI",
+      "etiquetaEnlace": "Ver tráiler de Rick and Morty en YouTube (se abre en una pestaña nueva)"
+    }
+  ],
+  "Discos": [
+    {
+      "id": 1,
+      "nombre": "Led Zeppelin — Led Zeppelin IV (1971)",
+      "imagen": "/imagenes/favoritos/albums/led-zeppelin-iv.jpg",
+      "url": "https://www.youtube.com/watch?v=0hLESLXqBLI",
+      "etiquetaEnlace": "Escuchar Led Zeppelin IV de Led Zeppelin en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 2,
+      "nombre": "Metallica — Master of Puppets (1986)",
+      "imagen": "/imagenes/favoritos/albums/metallica-master-of-puppets.jpg",
+      "url": "https://www.youtube.com/watch?v=6xjJ2XIbGRk",
+      "etiquetaEnlace": "Escuchar la canción Master of Puppets del álbum Master of Puppets de Metallica en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 3,
+      "nombre": "Pappo’s Blues — Volumen 1 (1971)",
+      "imagen": "/imagenes/favoritos/albums/pappos-blues-volumen-1.jpg",
+      "url": "https://www.youtube.com/watch?v=jMWQCDPs8Vo",
+      "etiquetaEnlace": "Escuchar Volumen 1 de Pappo’s Blues en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 4,
+      "nombre": "AC/DC — Stiff Upper Lip (2000)",
+      "imagen": "/imagenes/favoritos/albums/acdc-stiff-upper-lip.jpg",
+      "url": "https://www.youtube.com/watch?v=S2Z8WIlaPH4",
+      "etiquetaEnlace": "Escuchar la canción Stiff Upper Lip del álbum Stiff Upper Lip de AC/DC en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 5,
+      "nombre": "Divididos — La Era de la Boludez (1993)",
+      "imagen": "/imagenes/favoritos/albums/divididos-la-era-de-la-boludez.jpg",
+      "url": "https://www.youtube.com/watch?v=seyCgb9FuHY",
+      "etiquetaEnlace": "Escuchar la canción ¿Qué ves? del álbum La Era de la Boludez de Divididos en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 6,
+      "nombre": "Sumo — Llegando los monos (1986)",
+      "imagen": "/imagenes/favoritos/albums/sumo-llegando-los-monos.jpg",
+      "url": "https://www.youtube.com/watch?v=e7kuO5edHcg",
+      "etiquetaEnlace": "Escuchar Llegando los monos de Sumo en YouTube (se abre en una pestaña nueva)"
+    }
+  ]
+}

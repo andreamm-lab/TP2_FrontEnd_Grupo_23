@@ -5,6 +5,8 @@ import CarruselPerfiles from '../components/CarruselPerfiles'
 import FichaPerfil from '../components/FichaPerfil'
 import ListaHabilidades from '../components/ListaHabilidades'
 import IntegranteNoEncontrado from '../components/IntegranteNoEncontrado'
+import FavoritosIntegrante from '../../favoritos/components/FavoritosIntegrante'
+import Desafios from '../../desafios/Desafios'
 import styles from './Perfil.module.css'
 
 function Perfil() {
@@ -38,6 +40,8 @@ function Perfil() {
         <FichaPerfil key={integrante.id} integrante={integrante} numero={obtenerPosicion(integrante.id)} />
         <div className={styles.detalles}>
           <ListaHabilidades habilidades={integrante.habilidades} />
+          <FavoritosIntegrante key={integrante.id} slug={integrante.id} />
+          <Desafios key={`desafios-${integrante.id}`} />
         </div>
       </div>
       <Link className={styles.volver} to="/#equipo">

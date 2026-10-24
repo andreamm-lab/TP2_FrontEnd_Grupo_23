@@ -1,0 +1,92 @@
+{
+  "id": 4,
+  "NombreIntegrante": "Andrea",
+  "SeriesPeliculas": [
+    {
+      "id": 1,
+      "nombre": "Iron Man",
+      "imagen": "https://upload.wikimedia.org/wikipedia/en/0/02/Iron_Man_%282008_film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "url": "https://www.youtube.com/watch?v=8ugaeA-nMTc",
+      "etiquetaEnlace": "Ver tráiler de Iron Man en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 2,
+      "nombre": "Capitán América: el primer vengador",
+      "imagen": "https://upload.wikimedia.org/wikipedia/en/3/37/Captain_America_The_First_Avenger_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "url": "https://www.youtube.com/watch?v=W4DlMggBPvc",
+      "etiquetaEnlace": "Ver tráiler de Capitán América: el primer vengador en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 3,
+      "nombre": "Hachiko",
+      "imagen": "https://upload.wikimedia.org/wikipedia/en/b/be/Hachi_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "url": "https://www.youtube.com/watch?v=QYzHJyry9Cs",
+      "etiquetaEnlace": "Ver tráiler de Hachiko en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 4,
+      "nombre": "Mulán",
+      "imagen": "https://upload.wikimedia.org/wikipedia/en/a/a3/Movie_poster_mulan.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "url": "https://www.youtube.com/watch?v=N9FbeVTWrKM",
+      "etiquetaEnlace": "Ver tráiler de Mulán en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 5,
+      "nombre": "Guardianes de altamar",
+      "imagen": "https://upload.wikimedia.org/wikipedia/en/a/a6/The_Guardian_%282006_film%29_promotional_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "url": "https://www.youtube.com/watch?v=fvVrlOS8vC4",
+      "etiquetaEnlace": "Ver tráiler de Guardianes de altamar en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 6,
+      "nombre": "Interstellar",
+      "imagen": "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+      "url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+      "etiquetaEnlace": "Ver tráiler de Interstellar en YouTube (se abre en una pestaña nueva)"
+    }
+  ],
+  "Discos": [
+    {
+      "id": 1,
+      "nombre": "Ed Sheeran — X",
+      "imagen": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/b0/75/ec/b075ec42-a102-cde1-132b-9cddbc0d3496/825646285891.jpg/600x600bb.jpg",
+      "url": "https://www.youtube.com/watch?v=WpyfrixXBqU",
+      "etiquetaEnlace": "Escuchar Thinking Out Loud, del disco Ed Sheeran — X en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 2,
+      "nombre": "Adele — 21",
+      "imagen": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/eb/ca/25/ebca2596-cd1e-b295-91a3-771c868d0a79/191404113868.png/600x600bb.jpg",
+      "url": "https://www.youtube.com/watch?v=rYEDA3JcQqw",
+      "etiquetaEnlace": "Escuchar Rolling in the Deep, del disco Adele — 21 en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 3,
+      "nombre": "Álvaro Soler — El Camino",
+      "imagen": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/97/10/1b/97101b83-5325-3272-2208-601ebfe71f4e/196872960501.jpg/600x600bb.jpg",
+      "url": "https://www.youtube.com/watch?v=5783mCXsE6c",
+      "etiquetaEnlace": "Escuchar Con Calma, del disco Álvaro Soler — El Camino en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 4,
+      "nombre": "Laura Pausini — Primavera anticipada",
+      "imagen": "https://is1-ssl.mzstatic.com/image/thumb/Music/29/2e/3e/mzi.llgckzrr.jpg/600x600bb.jpg",
+      "url": "https://www.youtube.com/watch?v=-ceB50jJObM",
+      "etiquetaEnlace": "Escuchar Primavera anticipada, del disco Laura Pausini — Primavera anticipada en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 5,
+      "nombre": "Josiah Queen — The Prodigal",
+      "imagen": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/74/85/c97485f6-26db-f7d2-483e-f80a1f454a36/artwork.jpg/600x600bb.jpg",
+      "url": "https://www.youtube.com/watch?v=3B3hC706X90",
+      "etiquetaEnlace": "Escuchar The Prodigal, del disco Josiah Queen — The Prodigal en YouTube (se abre en una pestaña nueva)"
+    },
+    {
+      "id": 6,
+      "nombre": "Coldplay — Viva la Vida",
+      "imagen": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/52/aa/85/52aa851f-15b7-6322-f91f-df84b15b7b19/190295978044.jpg/600x600bb.jpg",
+      "url": "https://www.youtube.com/watch?v=dvgZkm1xWPE",
+      "etiquetaEnlace": "Escuchar Viva la Vida, del disco Coldplay — Viva la Vida en YouTube (se abre en una pestaña nueva)"
+    }
+  ]
+}
