@@ -1,0 +1,10 @@
+.controles { display: flex; flex-wrap: wrap; align-items: end; gap: 16px; padding: 20px; margin-top: 30px; border: 1px solid var(--border); border-radius: 12px; background: var(--surface); }
+.controles label { display: grid; flex: 1 1 180px; gap: 8px; min-width: 0; color: var(--muted); font-size: .9rem; }
+.controles input, .controles select, .controles button { width: 100%; min-height: 46px; padding: 10px; border: 1px solid var(--border); border-radius: 6px; background: var(--bg); color: var(--text); }
+.controles button { width: auto; cursor: pointer; color: var(--yellow); }
+.grilla { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr)); gap: 24px; margin-top: 24px; }
+.recomendacion { display: flex; flex-direction: column; min-width: 0; }
+.recomendacion > article { flex: 1; }
+.autor { margin: 12px 4px 0; color: var(--muted); font-size: .85rem; overflow-wrap: anywhere; }
+.autor span { display: block; margin-bottom: 4px; color: var(--cyan); font-size: .75rem; }
+.autor a { color: var(--yellow); text-underline-offset: 3px; }

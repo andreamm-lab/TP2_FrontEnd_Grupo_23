@@ -1,0 +1,32 @@
+:root {
+  --bg: #070b18;
+  --surface: #10182c;
+  --surface-2: #17223b;
+  --text: #f6f8ff;
+  --muted: #aeb9d5;
+  --orange: #ff8a18;
+  --yellow: #ffd84d;
+  --cyan: #49e5ff;
+  --border: rgba(120,191,255,.22);
+  --shadow: 0 22px 70px rgba(0,0,0,.34);
+  --display: 'Orbitron', sans-serif;
+  --body: 'Space Grotesk', sans-serif;
+  color-scheme: dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; background: radial-gradient(circle at 80% 10%, rgba(44,104,223,.18), transparent 26rem), var(--bg); color: var(--text); font-family: var(--body); line-height: 1.6; }
+a { color: inherit; }
+button, input, select, textarea { font: inherit; }
+img { max-width: 100%; }
+h1, h2, h3 { font-family: var(--display); line-height: 1.2; overflow-wrap: anywhere; }
+:focus-visible { outline: 3px solid var(--cyan); outline-offset: 4px; }
+.pagina-base { width: min(100% - 40px, 1080px); margin: auto; padding: clamp(40px, 7vw, 90px) 0; }
+.pagina-base h1 { font-size: clamp(1.8rem, 4vw, 3rem); margin: 12px 0 24px; }
+.pagina-base > p { max-width: 740px; color: var(--muted); }
+.pagina-base .etiqueta { color: var(--cyan); font-size: .75rem; letter-spacing: .12em; }
+.enlace-boton { display: inline-flex; margin-top: 24px; padding: 12px 20px; border-radius: 6px; background: linear-gradient(135deg, var(--yellow), var(--orange)); color: var(--bg); font-weight: 700; text-decoration: none; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}

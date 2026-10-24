@@ -18,6 +18,22 @@ npm run dev
 
 Abrir en el navegador la dirección que indique Vite en la terminal.
 
+## Estructura de la aplicación
+
+```text
+src/
+  main.jsx             Inicia React e importa App y los estilos globales
+  App.jsx              Componente principal con React Router y las rutas
+  app/pages/           Páginas auxiliares: NoEncontrada y PaginaPendiente
+  layout/              Layout compartido, Sidebar y Footer
+  modules/             Equipo, favoritos, clima, bitácora, árbol y desafíos
+  styles/global.css    Paleta y estilos comunes
+```
+
+`main.jsx` importa directamente `App` desde `src/App.jsx`. Hay un solo componente App y un solo BrowserRouter. El layout muestra cada página a través de Outlet.
+
+La sección `/arbol` representa la jerarquía de componentes, no las carpetas. Sus datos están en `src/modules/arbol/data/componentes.js`; deben actualizarse al cambiar las relaciones entre componentes. Mover App a la raíz de src no cambia esa jerarquía.
+
 ## Favoritos por integrante
 
 Cada perfil carga por HTTP su archivo de `public/data/favoritos/<slug>.json`

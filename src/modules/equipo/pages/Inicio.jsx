@@ -14,7 +14,7 @@ function Inicio() {
 
   // React Router no baja solo hasta un ancla como "/#equipo" al llegar desde otra ruta.
   useEffect(() => {
-    if (hash) document.querySelector(hash)?.scrollIntoView()
+    if (hash) document.getElementById(hash.slice(1))?.scrollIntoView()
   }, [hash])
 
   return (

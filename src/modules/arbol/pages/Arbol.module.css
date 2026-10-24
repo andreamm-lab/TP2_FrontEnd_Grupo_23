@@ -1,0 +1,7 @@
+.arbol { padding: clamp(12px, 3vw, 30px); border: 1px solid var(--border); border-radius: 12px; background: var(--surface); }
+.arbol, .arbol ul { list-style: none; }
+.arbol ul { padding-left: clamp(10px, 2vw, 24px); margin: 8px 0 8px 5px; border-left: 1px solid var(--border); }
+.arbol li { margin-block: 10px; }
+.arbol summary { cursor: pointer; color: var(--cyan); padding-block: 4px; }
+.arbol code { font-size: .9rem; overflow-wrap: anywhere; white-space: normal; }
+.hoja { padding-left: 12px; color: var(--muted); }
