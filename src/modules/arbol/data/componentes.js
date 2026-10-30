@@ -12,6 +12,7 @@ export const componentes = nodo('App', [
         nodo('Inicio · /', [
           hoja('Hero'),
           nodo('GrillaEquipo', [nodo('TarjetaIntegrante × 4 · integrantes.json', ficha())]),
+          hoja('Arcade · Dragon Bowling'),
           hoja('Mision'),
         ]),
         nodo('Perfil · /equipo/:slug', [
@@ -25,9 +26,9 @@ export const componentes = nodo('App', [
           hoja('Desafios · diálogo y generador'),
           hoja('IntegranteNoEncontrado · alternativa si el slug no existe'),
         ]),
-        nodo('Favoritos · /favoritos', [hoja('TarjetaPortada × recomendación · cuatro JSON de perfiles')]),
-        nodo('Clima · /clima', [hoja('PaginaPendiente')]),
-        nodo('Bitacora · /bitacora', [hoja('PaginaPendiente')]),
+        nodo('Favoritos · /favoritos', [hoja('TarjetaPortada × recomendación · catalogo.json (48 registros)')]),
+        hoja('Clima · /clima · consulta Open-Meteo'),
+        nodo('Bitacora · /bitacora', [hoja('IconoVista × 2 · lista y tarjetas')]),
         nodo('Arbol · /arbol', [hoja('NodoComponente · recursivo por cada rama')]),
         hoja('NoEncontrada · cualquier otra dirección'),
       ]),
