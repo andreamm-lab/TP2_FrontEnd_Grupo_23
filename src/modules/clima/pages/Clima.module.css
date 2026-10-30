@@ -1,0 +1,35 @@
+.panel {
+  margin-top: 36px;
+  padding: clamp(22px, 4vw, 40px);
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--orange);
+  border-radius: 14px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+.encabezado { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; }
+.encabezado h2 { margin: 0; font-size: clamp(1.1rem, 2.5vw, 1.6rem); }
+.rotulo { margin: 0 0 10px; font-size: .7rem; letter-spacing: .12em; color: var(--cyan); }
+.ubicacion { padding: 6px 12px; border: 1px solid var(--border); border-radius: 20px; color: var(--muted); font-size: .8rem; }
+.estado { margin: 24px 0 0; color: var(--muted); font-size: .9rem; }
+.estado:empty { display: none; }
+.mediciones { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin: 24px 0; }
+.mediciones > div { min-width: 0; padding: 24px 18px; border: 1px solid var(--border); border-radius: 10px; background: var(--bg); }
+.mediciones dt { color: var(--muted); font-size: .9rem; }
+.mediciones dd { margin: 14px 0 0; font: 700 clamp(1.5rem, 3.5vw, 2.6rem) var(--display); overflow-wrap: anywhere; }
+.mediciones dd span { display: inline-block; font-size: .55em; color: var(--muted); }
+.temperatura dd { color: var(--yellow); }
+.fecha { margin: 0; color: var(--muted); font-size: .9rem; }
+.fecha time { color: var(--text); }
+.error { margin-top: 24px; padding: 22px; border: 1px solid var(--orange); border-radius: 10px; background: var(--bg); }
+.error h3 { margin: 0; font-size: 1rem; color: var(--yellow); }
+.error p { color: var(--muted); }
+.boton { padding: 12px 20px; border: 0; border-radius: 6px; color: var(--bg); background: linear-gradient(135deg, var(--yellow), var(--orange)); font-weight: 700; cursor: pointer; }
+.boton:hover { filter: brightness(1.1); }
+.fuente { margin-top: 24px; font-size: .9rem; }
+.fuente a { color: var(--yellow); text-underline-offset: 4px; }
+.soloLectores { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+@media (max-width: 1000px) and (min-width: 801px), (max-width: 600px) {
+  .mediciones { grid-template-columns: minmax(0, 1fr); }
+  .mediciones > div { padding: 20px; }
+}
