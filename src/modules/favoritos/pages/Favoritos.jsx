@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { obtenerIntegrantes, nombreCompleto } from '../../equipo/data/integrantes'
-import { obtenerFavoritos } from '../services/favoritos'
+import { obtenerCatalogo } from '../services/favoritos'
 import TarjetaPortada from '../components/TarjetaPortada'
 import styles from './Favoritos.module.css'
 
@@ -17,15 +17,15 @@ export default function Favoritos() {
   useEffect(() => { document.title = 'DragonByte | Favoritos' }, [])
   useEffect(() => {
     const controller = new AbortController()
-    Promise.all(obtenerIntegrantes().map(async (integrante) => {
-      const datos = await obtenerFavoritos(integrante.id, controller.signal)
-      return [
-        ...datos.SeriesPeliculas.map((item) => ({ ...item, categoria: 'pantalla', integrante })),
-        ...datos.Discos.map((item) => ({ ...item, categoria: 'musica', integrante })),
-      ]
-    }))
-      .then((listas) => {
-        if (!controller.signal.aborted) setEstado({ datos: listas.flat(), error: null })
+    obtenerCatalogo(controller.signal)
+      .then((catalogo) => {
+        const integrantes = new Map(obtenerIntegrantes().map((integrante) => [integrante.id, integrante]))
+        const datos = catalogo.map((item) => {
+          const integrante = integrantes.get(item.integranteId)
+          if (!integrante) throw new Error('El favorito no corresponde a un integrante del equipo.')
+          return { ...item, integrante }
+        })
+        if (!controller.signal.aborted) setEstado({ datos, error: null })
       })
       .catch(() => {
         if (!controller.signal.aborted) setEstado({ datos: null, error: 'No pudimos cargar los favoritos del equipo.' })
