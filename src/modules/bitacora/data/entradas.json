@@ -1,0 +1,90 @@
+[
+  {
+    "number": 1,
+    "date": "2026-09-04",
+    "type": "Inicio",
+    "title": "Definición del equipo y estructura",
+    "description": "Creamos la identidad DragonByte y la estructura inicial de archivos según la consigna.",
+    "decisions": "Elegimos una estética que combina tecnología, terminales y energía inspirada en el anime.",
+    "nextStep": "Reemplazar los datos provisorios, definir roles y agregar avatares.",
+    "challenges": "Definir una identidad común y organizar los archivos para que el equipo pudiera trabajar con los mismos criterios.",
+    "solutions": "Adoptar la identidad DragonByte y una estructura inicial compartida, con una estética basada en tecnología, terminales y anime."
+  },
+  {
+    "number": 2,
+    "date": "2026-09-07",
+    "type": "Diseño",
+    "title": "Elección entre avatares y fotografías",
+    "description": "El equipo conversó sobre cómo representar visualmente a cada integrante en la página: utilizar fotografías reales, avatares o una combinación de ambas alternativas.",
+    "decisions": "Se planteó explorar la generación de un avatar con estética anime para cada participante, manteniendo su fotografía como imagen principal y permitiendo alternar entre ambas versiones.",
+    "nextStep": "Crear una primera versión de los avatares, probar la interacción entre foto y avatar y evaluar en equipo si la propuesta mantiene una identidad visual uniforme.",
+    "challenges": "Representar a cada integrante sin perder la coherencia visual entre fotografías reales y avatares.",
+    "solutions": "Proponer la fotografía como imagen principal y un avatar con estética anime como alternativa, permitiendo alternar entre ambas versiones."
+  },
+  {
+    "number": 3,
+    "date": "2026-09-11",
+    "type": "Revisión",
+    "title": "Revisión del diseño de perfiles y avatares",
+    "description": "En la reunión de equipo analizamos la propuesta de diseño para los perfiles individuales, incorporando fotografías en las secciones de películas y música.",
+    "decisions": "También revisamos la animación del inicio que permite alternar la fotografía de cada integrante con su avatar, manteniendo la identidad visual del sitio.",
+    "nextStep": "En la próxima reunión evaluaremos si es necesario agregar más información a los perfiles y buscaremos cerrar el diseño final de las fotografías y los avatares.",
+    "challenges": "Integrar fotografías y avatares en los perfiles y en el inicio manteniendo una presentación uniforme.",
+    "solutions": "Revisar en equipo el diseño de los perfiles y la animación que alterna entre foto y avatar para acordar criterios visuales comunes."
+  },
+  {
+    "number": 4,
+    "date": "2026-09-15",
+    "type": "Integración",
+    "title": "Primera integración de ramas de trabajo",
+    "description": "Realizamos la primera integración de las ramas de trabajo de Git para reunir los avances desarrollados por cada integrante del equipo.",
+    "decisions": "Revisamos las diferencias entre las páginas y unificamos estilos, estructura y criterios visuales para que todos los perfiles mantengan una presentación coherente.",
+    "nextStep": "Comprobar el funcionamiento conjunto del sitio, corregir posibles conflictos y continuar completando el contenido pendiente de cada perfil.",
+    "challenges": "Reunir los avances de las ramas de Git y compatibilizar páginas desarrolladas por diferentes integrantes.",
+    "solutions": "Integrar las ramas de trabajo, comparar las diferencias y unificar la estructura, los estilos y los criterios visuales de los perfiles."
+  },
+  {
+    "number": 5,
+    "date": "2026-09-16",
+    "type": "Estilos",
+    "title": "Unificación de estilos de los perfiles",
+    "description": "Unificamos la estructura visual de los cuatro perfiles para que las secciones de habilidades, películas, series y discos compartan el mismo diseño.",
+    "decisions": "Definimos estilos globales y reutilizables para las grillas y cards, manteniendo tamaños, separaciones, tipografías y comportamiento responsive consistentes en todo el sitio.",
+    "nextStep": "Reemplazar progresivamente los datos e imágenes provisorias y realizar una revisión visual final en diferentes tamaños de pantalla.",
+    "challenges": "Mantener tamaños, separaciones y secciones consistentes en los cuatro perfiles y en distintas pantallas.",
+    "solutions": "Definir estilos reutilizables para las grillas y tarjetas de habilidades, películas, series y discos, con criterios responsive compartidos."
+  },
+  {
+    "number": 6,
+    "date": "2026-09-19",
+    "type": "Desarrollo",
+    "title": "Bitácora con línea de tiempo",
+    "description": "Incorporamos una línea de tiempo a la bitácora para recorrer los avances del proyecto y acceder a las entradas de cada jornada de trabajo.",
+    "decisions": "Organizamos los eventos por fecha y agregamos filtros y opciones de orden para facilitar la consulta del historial del equipo.",
+    "nextStep": "Continuar registrando los avances y revisar la navegación de la bitácora en distintos tamaños de pantalla.",
+    "challenges": "Facilitar la consulta de un historial que crece con cada jornada de trabajo.",
+    "solutions": "Organizar las entradas en una línea de tiempo e incorporar filtros por fecha y opciones de orden para recorrer los avances."
+  },
+  {
+    "number": 7,
+    "date": "2026-09-27",
+    "type": "Desarrollo",
+    "title": "Juego arcade de autenticación y nuevos desafíos",
+    "description": "Agregamos el juego arcade de bowling de esferas, el cual al ganar la partida permite ver la clave necesaria para habilitar el botón publicar en la bitácora. También, incluimos desafíos desde un botón en cada perfil.",
+    "decisions": "Integramos el juego con la clave del formulario e incorporamos el botón «Generar desafío» en los perfiles para proponer retos aleatorios de desarrollo.",
+    "nextStep": "Revisar el funcionamiento del arcade, la publicación de entradas y los desafíos antes del primer lanzamiento oficial.",
+    "challenges": "Conectar el premio del arcade con la publicación en la bitácora e incorporar retos de desarrollo en los perfiles.",
+    "solutions": "Integrar la clave obtenida al ganar Dragon Bowling con el formulario de la bitácora y agregar el botón «Generar desafío» en cada perfil."
+  },
+  {
+    "number": 8,
+    "date": "2026-09-28",
+    "type": "Lanzamiento",
+    "title": "Primer lanzamiento oficial del sitio",
+    "description": "Realizamos el primer deploy oficial de DragonByte, publicando la portada, los perfiles del equipo, la bitácora y las experiencias interactivas del proyecto.",
+    "decisions": "Establecimos esta versión como la primera entrega pública del sitio y como punto de partida para las próximas mejoras.",
+    "nextStep": "Comprobar el sitio publicado, recopilar comentarios y registrar los ajustes necesarios para futuras versiones.",
+    "challenges": "Reunir las páginas y experiencias interactivas del equipo en una primera entrega pública.",
+    "solutions": "Publicar una versión integrada con la portada, los perfiles, la bitácora y las experiencias interactivas, y usarla como base para las próximas mejoras."
+  }
+]
