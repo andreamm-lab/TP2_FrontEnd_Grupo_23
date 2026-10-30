@@ -4,6 +4,7 @@ import { obtenerIntegrantes } from '../data/integrantes'
 import Hero from '../components/Hero'
 import GrillaEquipo from '../components/GrillaEquipo'
 import Mision from '../components/Mision'
+import Arcade from '../../arcade/Arcade'
 
 function Inicio() {
   const { hash } = useLocation()
@@ -21,6 +22,7 @@ function Inicio() {
     <>
       <Hero />
       <GrillaEquipo integrantes={obtenerIntegrantes()} />
+      <Arcade />
       <Mision />
     </>
   )

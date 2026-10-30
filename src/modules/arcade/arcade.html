@@ -1,0 +1,144 @@
+<section id="esferas" class="section bowling-section" data-bowling aria-labelledby="bowling-title">
+        <div class="section-heading bowling-heading">
+          <div class="bowling-heading-copy">
+            <p class="eyebrow">EL DESAFÍO DE LAS ESFERAS</p>
+            <h2 id="bowling-title">Tu destreza desbloquea el código.</h2>
+          </div>
+          <aside class="bowling-key-notice" aria-label="Premio del desafío">
+            <span class="bowling-key-smoke" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+            <img class="bowling-key-image" src="__ARCADE_KEY_IMAGE__" alt="" width="96" height="96">
+            <p>¡La llave de la bitácora <strong>es para el ganador!</strong></p>
+          </aside>
+        </div>
+        <div id="arcade" class="bowling-game" data-phase="idle">
+          <div class="bowling-topbar">
+            <div class="bowling-brand">
+              <p class="eyebrow">DRAGONBYTE ARCADE / 01</p>
+              <h3>Dragon Bowling</h3>
+            </div>
+            <div class="bowling-scoreboard">
+              <div class="bowling-stat"><span>Derribados</span><strong id="bowling-score">0 / 10</strong></div>
+              <div class="bowling-stat">
+                <span>Intentos</span>
+                <ol id="bowling-attempts" class="bowling-attempts">
+                  <li class="is-active" aria-label="Tiro 1 disponible"><span class="bowling-mini-orb" aria-hidden="true">★</span></li>
+                  <li aria-label="Tiro 2 disponible"><span class="bowling-mini-orb" aria-hidden="true">★</span></li>
+                  <li aria-label="Tiro 3 disponible"><span class="bowling-mini-orb" aria-hidden="true">★</span></li>
+                </ol>
+                <p id="bowling-attempts-remaining" class="bowling-attempts-remaining">3 disponibles</p>
+              </div>
+            </div>
+            <div class="bowling-toolbar">
+              <button id="bowling-help-button" class="button bowling-help-button" type="button" aria-haspopup="dialog" aria-controls="bowling-help-dialog">
+                <span class="bowling-help-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" focusable="false">
+                    <path d="M9.1 8a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4M12 17h.01"></path>
+                  </svg>
+                </span>
+                <span class="bowling-help-label">Ayuda</span>
+              </button>
+              <button id="bowling-sound" class="bowling-sound" type="button" aria-label="Sonido del bowling" aria-pressed="true" title="Silenciar sonido">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                  <path d="M11 5 6 9H3v6h3l5 4V5Z"></path>
+                  <g class="bowling-sound-on"><path d="M15 8a6 6 0 0 1 0 8M18 5a10 10 0 0 1 0 14"></path></g>
+                  <g class="bowling-sound-off"><path d="m16 9 6 6m0-6-6 6"></path></g>
+                </svg>
+                <span data-sound-label>Sonido activado</span>
+              </button>
+            </div>
+          </div>
+          <div class="bowling-stage">
+            <div class="bowling-playfield" inert>
+              <div class="bowling-arena" tabindex="-1" role="group" aria-label="Pista de bowling" aria-describedby="bowling-status">
+                <div class="bowling-lane-label">PISTA 01 <span> / ESFERA DE CUATRO ESTRELLAS</span></div>
+                <svg id="bowling-lane" viewBox="0 0 700 580" aria-hidden="true" focusable="false"></svg>
+                <div class="bowling-arena-hint"><span id="bowling-aim-label">Mira: 60, 26</span></div>
+              </div>
+              <div class="bowling-power-hud">
+                <span id="bowling-power-label">Potencia</span>
+                <output id="bowling-power-value">0%</output>
+                <div id="bowling-power" class="bowling-power" role="progressbar" aria-labelledby="bowling-power-label" aria-orientation="vertical" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+                  <span class="bowling-power-zone"></span><span id="bowling-power-fill" class="bowling-power-fill"></span>
+                </div>
+                <span class="bowling-power-limit" aria-hidden="true">0%</span>
+              </div>
+              <div class="bowling-controls" role="group" aria-label="Controles del juego">
+                <div class="bowling-dpad" role="group" aria-label="Mover la mira">
+                  <button type="button" data-aim="up" aria-label="Apuntar más arriba">↑</button>
+                  <button type="button" data-aim="left" aria-label="Apuntar a la izquierda">←</button>
+                  <button type="button" data-aim="down" aria-label="Apuntar más abajo">↓</button>
+                  <button type="button" data-aim="right" aria-label="Apuntar a la derecha">→</button>
+                </div>
+                <button id="bowling-launch" class="button button-primary bowling-launch" type="button" disabled>Cargar esfera</button>
+                <button id="bowling-reset" class="bowling-reset" type="button">
+                  <span class="bowling-reset-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false">
+                      <path d="M3 10a9 9 0 1 1 2.6 8.4M3 4v6h6"></path>
+                    </svg>
+                  </span>
+                  <span class="bowling-reset-label">Reiniciar partida</span>
+                </button>
+              </div>
+            </div>
+            <div class="bowling-overlay">
+              <div class="bowling-banner" role="dialog" aria-modal="false" aria-labelledby="bowling-overlay-title" aria-describedby="bowling-overlay-message">
+                <div class="bowling-banner-orb" aria-hidden="true">★★★★</div>
+                <p id="bowling-overlay-eyebrow" class="eyebrow">DRAGONBYTE ARCADE</p>
+                <h3 id="bowling-overlay-title" tabindex="-1">¿Listo para jugar?</h3>
+                <p id="bowling-overlay-message">Tu próxima misión empieza acá.</p>
+                <div id="bowling-shot-summary" class="bowling-shot-summary" hidden>
+                  <ol id="bowling-result-attempts" class="bowling-attempts bowling-result-attempts" aria-label="Estado de los tres intentos">
+                    <li><span class="bowling-mini-orb" aria-hidden="true">★</span></li>
+                    <li><span class="bowling-mini-orb" aria-hidden="true">★</span></li>
+                    <li><span class="bowling-mini-orb" aria-hidden="true">★</span></li>
+                  </ol>
+                  <p id="bowling-shots-remaining">2 intentos disponibles</p>
+                </div>
+                <div id="bowling-reward" class="bowling-reward" hidden>
+                  <p>CLAVE DE LA BITÁCORA</p>
+                  <div class="bowling-code-row">
+                    <code id="bowling-code"></code>
+                    <button id="bowling-copy" class="bowling-copy" type="button" aria-label="Copiar clave" title="Copiar clave">
+                      <svg class="bowling-copy-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                        <rect x="8" y="8" width="12" height="12" rx="2"></rect>
+                        <path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"></path>
+                      </svg>
+                      <svg class="bowling-copy-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                        <path d="m5 12 4 4L19 6"></path>
+                      </svg>
+                    </button>
+                  </div>
+                  <p id="bowling-copy-status" class="bowling-copy-status" role="status" aria-live="polite" aria-atomic="true"></p>
+                </div>
+                <div class="bowling-banner-actions">
+                  <button id="bowling-start" class="button button-primary" type="button">Empezar partida</button>
+                  <a id="bowling-logbook" class="button button-primary" href="/bitacora" hidden>Ir a la bitácora</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bowling-feedback"><p id="bowling-status" role="status" aria-live="polite" aria-atomic="true">Partida sin iniciar.</p></div>
+          <footer class="bowling-footer">
+            <div class="bowling-orbs" aria-hidden="true">
+              <span class="bowling-collectible">★</span><span class="bowling-collectible">★★</span><span class="bowling-collectible">★★★</span><span class="bowling-collectible">★★★★</span><span class="bowling-collectible">★★★★★</span><span class="bowling-collectible">★★★★★★</span><span class="bowling-collectible">★★★★★★★</span>
+            </div>
+            <p>Un desafío de puntería. Una clave por descubrir.</p>
+          </footer>
+        </div>
+        <dialog id="bowling-help-dialog" class="bowling-help-dialog" aria-labelledby="bowling-help-title">
+          <div class="bowling-help-header">
+            <h2 id="bowling-help-title">Cómo jugar</h2>
+            <button class="bowling-help-close" type="button" aria-label="Cerrar ayuda" data-close-help>×</button>
+          </div>
+          <p>Elegí «Empezar partida» y derribá los <strong>10 palos en 3 lanzamientos</strong> para descubrir la clave de autenticación de la bitácora. Los palos derribados se conservan entre tiros. Cada lanzamiento consume una de las tres esferas: las usadas quedan grises y tachadas.</p>
+          <ol class="bowling-help-steps">
+            <li><strong>Apuntá.</strong> Hacé clic en la pista y mové la mira con las cuatro flechas del teclado. En celular, usá los botones de dirección.</li>
+            <li><strong>Cargá y lanzá.</strong> Mantené presionado «Cargar esfera» con el mouse o el dedo. Soltá para lanzar con la potencia indicada.</li>
+            <li><strong>Elegí la potencia.</strong> La barra vertical se llena de abajo hacia arriba. La zona ideal está entre 70 y 90% para lograr una reacción en cadena.</li>
+            <li><strong>También con teclado.</strong> Con la pista o el botón de lanzamiento enfocados, mantené Espacio y soltá para lanzar. Enter lanza al 80% y Esc cancela la carga.</li>
+          </ol>
+          <p>Después de cada tiro, el resultado aparece durante dos segundos y se cierra automáticamente. También podés cerrarlo antes con Esc. «Reiniciar partida» vuelve al cartel de inicio. Al finalizar, «Volver a jugar» comienza una partida nueva con tres intentos. Cerrá esta ayuda con Esc o con «Entendido».</p>
+          <button class="button button-primary" type="button" data-close-help>Entendido</button>
+        </dialog>
+        <noscript><p>Activá JavaScript para jugar al desafío de las esferas.</p></noscript>
+      </section>
