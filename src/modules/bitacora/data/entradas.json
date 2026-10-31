@@ -86,5 +86,104 @@
     "nextStep": "Comprobar el sitio publicado, recopilar comentarios y registrar los ajustes necesarios para futuras versiones.",
     "challenges": "Reunir las páginas y experiencias interactivas del equipo en una primera entrega pública.",
     "solutions": "Publicar una versión integrada con la portada, los perfiles, la bitácora y las experiencias interactivas, y usarla como base para las próximas mejoras."
+  },
+  {
+    "number": 9,
+    "date": "2026-10-19",
+    "type": "Inicio",
+    "title": "Creación del repositorio del TP2",
+    "description": "Creamos un nuevo repositorio para desarrollar el TP2 y continuar el proyecto DragonByte en React.",
+    "decisions": "Mantuvimos el TP2 en un repositorio independiente del TP1 e incorporamos el README, las reglas de exclusión de archivos y la base de React con Vite.",
+    "nextStep": "Analizar los objetivos de la entrega y organizar las tareas para distribuir el desarrollo entre los integrantes.",
+    "challenges": "Preparar una base común para iniciar el trabajo en equipo sin modificar el proyecto entregado en el TP1.",
+    "solutions": "Crear un repositorio independiente y registrar la estructura inicial del proyecto para que el equipo pudiera trabajar sobre la misma base."
+  },
+  {
+    "number": 10,
+    "date": "2026-10-20",
+    "type": "Inicio",
+    "title": "Análisis de objetivos y organización del TP2",
+    "description": "Analizamos los objetivos de la entrega y estructuramos el proyecto en cuatro partes para distribuir el trabajo entre los integrantes del equipo.",
+    "decisions": "Dividimos las tareas en estructura y navegación, portada y perfiles, favoritos del equipo, y clima y bitácora, con responsabilidades definidas para cada parte.",
+    "nextStep": "Distribuir las cuatro partes entre los integrantes y comenzar el desarrollo sobre una base compartida.",
+    "challenges": "Definir partes de trabajo claras para evitar superposiciones y conflictos entre los cambios de cada integrante.",
+    "solutions": "Delimitar los módulos y archivos de cada parte y acordar que los cambios en rutas, dependencias y estilos compartidos se coordinen entre los integrantes."
+  },
+  {
+    "number": 11,
+    "date": "2026-10-21",
+    "type": "Inicio",
+    "title": "Sorteo de temas y asignación de responsabilidades",
+    "description": "Sorteamos los cuatro temas entre los integrantes mediante una aplicación de ruleta con los temas y los nombres del equipo, para realizar una distribución justa del trabajo.",
+    "decisions": "Asignamos estructura y navegación a Glaucia Ferreira, portada y perfiles a Ignacio Grosman, favoritos del equipo a Sebastián Fernández, y clima y bitácora a Andrea Maslucan Moreno, según los resultados del sorteo.",
+    "nextStep": "Revisar las tareas del tema asignado y comenzar el desarrollo de cada parte sobre la base compartida del proyecto.",
+    "challenges": "Distribuir los temas de manera justa y establecer una responsabilidad clara para cada integrante.",
+    "solutions": "Utilizar una aplicación de ruleta para sortear los temas y los integrantes y registrar la asignación resultante para organizar el trabajo en equipo."
+  },
+  {
+    "number": 12,
+    "date": "2026-10-21",
+    "type": "Desarrollo",
+    "title": "Tema 2: incorporación de portada y perfiles en React",
+    "description": "Incorporamos la portada y los cuatro perfiles del equipo en React, con sus componentes, estilos e información personal. El primer avance del tema quedó registrado en el commit 6db8079.",
+    "decisions": "Organizamos los datos en integrantes.json y reutilizamos componentes para las tarjetas, las fichas y la navegación entre perfiles.",
+    "nextStep": "Integrar la portada y los perfiles con la navegación compartida y las recomendaciones de cada integrante.",
+    "challenges": "Trasladar la información del TP1 a componentes React sin perder el contenido particular ni la identidad visual de cada perfil.",
+    "solutions": "Separar los datos de la presentación y construir componentes reutilizables para mostrar los cuatro perfiles, sus habilidades y sus fotografías transformables."
+  },
+  {
+    "number": 13,
+    "date": "2026-10-22",
+    "type": "Desarrollo",
+    "title": "Tema 1: primeros avances de estructura y navegación",
+    "description": "Registramos los primeros avances del tema de estructura y navegación con la creación del repositorio y la preparación de la base React con Vite, en los commits 63e30a2 y b204068.",
+    "decisions": "Partimos de una base común de React y Vite para incorporar las páginas, las rutas y el layout compartido en las siguientes etapas.",
+    "nextStep": "Integrar React Router, el menú lateral, el layout compartido y el árbol de componentes al incorporar los módulos del equipo.",
+    "challenges": "Preparar una estructura inicial que permitiera sumar las distintas partes del proyecto sin superponer responsabilidades.",
+    "solutions": "Registrar la configuración y los archivos iniciales en Git para que todos los integrantes pudieran partir de la misma base."
+  },
+  {
+    "number": 14,
+    "date": "2026-10-24",
+    "type": "Desarrollo",
+    "title": "Tema 3: incorporación de favoritos por integrante",
+    "description": "Incorporamos los favoritos de cada integrante mediante archivos JSON y componentes de series, películas y discos. El primer avance del tema quedó registrado en el commit b180123, que también agregó el generador de desafíos.",
+    "decisions": "Guardamos las recomendaciones por integrante y reutilizamos tarjetas para presentar las portadas y sus enlaces a contenido externo.",
+    "nextStep": "Reunir las recomendaciones en una página común y completar la búsqueda, los filtros combinados y la opción de restablecer el listado.",
+    "challenges": "Relacionar las recomendaciones con los cuatro perfiles y evitar duplicar la estructura visual de cada tarjeta.",
+    "solutions": "Separar la lectura de los JSON en un servicio y utilizar componentes compartidos para las recomendaciones de películas, series y música."
+  },
+  {
+    "number": 15,
+    "date": "2026-10-30",
+    "type": "Desarrollo",
+    "title": "Tema 4: incorporación de bitácora, clima y arcade",
+    "description": "Registramos la primera implementación funcional del tema 4 a partir del commit 3c6e70a, con los datos de la bitácora. Ese día se incorporaron también su interfaz, el clima de Buenos Aires y el arcade Dragon Bowling.",
+    "decisions": "Organizamos los registros del proceso en datos locales, separamos la consulta a Open-Meteo de su presentación e integramos el premio del arcade con la clave de la bitácora.",
+    "nextStep": "Comprobar las secciones integradas, la consulta del clima y sus errores, los filtros de la bitácora y el funcionamiento del arcade.",
+    "challenges": "Integrar la información externa del clima y las interacciones de bitácora y arcade sin perder la navegación ni los estilos compartidos.",
+    "solutions": "Separar las responsabilidades por módulo, implementar carga, error y reintento para el clima, y conectar el arcade y la bitácora mediante una clave compartida."
+  },
+  {
+    "number": 16,
+    "date": "2026-10-30",
+    "type": "Lanzamiento",
+    "title": "Publicación del TP2 y preparación de la entrega",
+    "description": "Publicamos el sitio del TP2 en Vercel y ajustamos el README para presentar el proyecto y preparar la entrega.",
+    "decisions": "Sincronizamos las ramas con la versión integrada y completamos el README con el enlace al sitio, las responsabilidades, el uso de IA por integrante, el índice y las capturas de pantalla.",
+    "nextStep": "Realizar una última revisión de la rúbrica, comprobar los enlaces y entregar el repositorio público del TP2.",
+    "challenges": "Asegurar que Vercel mostrara la versión actual del proyecto y que la documentación reuniera la información necesaria para evaluar la entrega.",
+    "solutions": "Publicar la versión integrada, verificar la navegación y la recarga de las rutas en Vercel, y organizar el README con enlaces internos y capturas optimizadas del sitio."
+  },
+  {
+    "number": 17,
+    "date": "2026-10-30",
+    "type": "Lanzamiento",
+    "title": "Entrega del TP2 y cierre de la bitácora",
+    "description": "Realizamos la entrega del TP2 y cerramos la bitácora con el registro del proceso de trabajo del equipo.",
+    "decisions": "Dimos por finalizada la versión de entrega de DragonByte y dejamos documentadas las responsabilidades, las herramientas utilizadas y los avances del proyecto.",
+    "nextStep": "Dar por cerrada esta etapa y recibir la devolución docente sobre el trabajo entregado.",
+    "challenges": "Concluir el trabajo en equipo y reunir el desarrollo, la publicación y la documentación en una entrega común.",
+    "solutions": "Consolidar la versión final del proyecto y presentar el repositorio con el enlace al sitio publicado y el README actualizado."
   }
 ]
